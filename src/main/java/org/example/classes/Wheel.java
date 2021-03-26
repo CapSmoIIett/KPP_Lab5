@@ -3,7 +3,6 @@ package org.example.classes;
 public class Wheel extends Detail{
 
     boolean speen;
-    boolean 
 
     Wheel(int weight){
         speen = false;

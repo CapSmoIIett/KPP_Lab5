@@ -4,6 +4,7 @@ public class Detail {
 
     int weight;
 
+    //Detail(int weight) {this.weight = weight;}
     int getWeight (){
         return weight;
     }
