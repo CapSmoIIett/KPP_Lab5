@@ -1,13 +1,17 @@
 package org.example.classes;
 
-public class Body {
+public class Body extends Detail{
     int amountDoors;
 
-    public void openDoors(){
-
+    Body(int weight, int amount){
+        this.weight = weight;
+        this.amountDoors = amount;
+    }
+    public String openDoors(){
+        return "> Дверь открыта\n";
     }
 
-    public void closeDoors(){
-
+    public String closeDoors(){
+        return "> Дверь закрыта\n";
     }
 }

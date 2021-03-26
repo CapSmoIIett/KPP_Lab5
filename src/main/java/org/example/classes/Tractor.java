@@ -4,8 +4,14 @@ import org.example.classes.*;
 
 public class Tractor extends Car{
 
-    Tractor(){
+    public boolean clearing;
+
+    public Tractor(){
         super("Tractor");
         //this.name = "Tractor";
+    }
+    public String clearSnow(){
+        clearing =true;
+        return "> Чистим чистим снег.\n";
     }
 }

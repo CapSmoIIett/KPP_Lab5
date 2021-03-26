@@ -12,7 +12,7 @@ public class Engine extends Detail{
 
     }
     public void work(ArrayList<Detail> details){                     // Мотору работать
-        if (!start) start = true;                                       // Завелись
+        if (!start) start = true;                                    // Завелись
         ((FuelTank)details.get(1)).wasteFuel(10 * FuelTank.L);            // - 10 литров
         ((Wheel)details.get(2)).speen();                                         // Крутим колеса
         ((Wheel)details.get(3)).speen();
@@ -21,9 +21,9 @@ public class Engine extends Detail{
     }
     public void stop(ArrayList<Detail> details){                            // Останавливаемся
         start = false;                                                      // Глохнем
-        ((Wheel)details.get(2)).speen();                                    // Останавливаем колеса
-        ((Wheel)details.get(3)).speen();
-        ((Wheel)details.get(4)).speen();
-        ((Wheel)details.get(5)).speen();
+        ((Wheel)details.get(2)).stopSpeen();                                    // Останавливаем колеса
+        ((Wheel)details.get(3)).stopSpeen();
+        ((Wheel)details.get(4)).stopSpeen();
+        ((Wheel)details.get(5)).stopSpeen();
     }
 }
