@@ -2,8 +2,8 @@ package org.example.classes;
 
 public class Wheel extends Detail{
 
-    boolean speen;
-    boolean pump;
+    private boolean speen;
+    protected boolean pump;
 
     Wheel(int weight){
         speen = false;

@@ -6,13 +6,13 @@ import java.math.*;
 
 public class Car {                      // Класс машины
 
-    String name;
+    private String name;
     public boolean flagGo;
-    ArrayList<Detail> details;
+    private ArrayList<Detail> details;
 
     public Car(String str){
         flagGo = false;
-        details = new ArrayList<Detail>(7);        // 4 - колеса, двигатель и топливный бак
+        details = new ArrayList<Detail>();        // 4 - колеса, двигатель и топливный бак
         details.add(0, new Engine(0));
         details.add(1, new FuelTank(0));
         details.add(2, new Wheel(0));

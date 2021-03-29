@@ -2,7 +2,7 @@ package org.example.classes;
 
 public class Detail {
 
-    int weight;
+    protected int weight;
 
     //Detail(int weight) {this.weight = weight;}
     int getWeight (){

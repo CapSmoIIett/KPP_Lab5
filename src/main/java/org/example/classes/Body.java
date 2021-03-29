@@ -1,7 +1,7 @@
 package org.example.classes;
 
 public class Body extends Detail{
-    int amountDoors;
+    private int amountDoors;
 
     Body(int weight, int amount){
         this.weight = weight;

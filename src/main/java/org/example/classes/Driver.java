@@ -3,7 +3,7 @@ package org.example.classes;
 import  org.example.classes.*;
 public class Driver {
     private static Car car;
-    String name;
+    private String name;
 
     public Driver(String nam, Tractor car) {
         this.name = name;

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Engine extends Detail{
 
-    boolean start;                      // Завелись мы или нет
+    private boolean start;                      // Завелись мы или нет
 
     Engine(int weight){
         start = false;

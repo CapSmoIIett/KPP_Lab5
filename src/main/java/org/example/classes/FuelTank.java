@@ -1,7 +1,7 @@
 package org.example.classes;
 
 public class FuelTank extends Detail{
-    long maxFuel = 50000;
+    private long maxFuel = 50000;
     public long fuel;
 
     public static int L = 1000;            // Литр
