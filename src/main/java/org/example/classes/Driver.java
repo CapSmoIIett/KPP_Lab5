@@ -20,7 +20,7 @@ public class Driver {
             answer += "> Водитель - водит.\n";
         }
         else {
-            answer += "> Топлива нет\n";
+            answer += "> Не едет\n";
             answer += stopDrive();
         }
         return answer;

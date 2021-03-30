@@ -35,7 +35,7 @@ public class Car {                      // Класс машины
     public void stop(){
         ((Engine)details.get(0)).stop(details);
         Random r = new Random();
-        if (r.nextInt(10) == 1){
+        if (r.nextInt(2) == 1){
             ((Wheel)details.get(r.nextInt(4) + 2)).makeHole();      // make hole in random wheel
         }
         flagGo = false;

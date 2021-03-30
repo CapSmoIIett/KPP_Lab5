@@ -5,32 +5,32 @@
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="270.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Controller">
+<AnchorPane prefHeight="270.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Controller">
    <children>
-      <Button fx:id="buttonDrive" layoutX="15.0" layoutY="225.0" maxWidth="45.0" mnemonicParsing="false" prefWidth="45.0" text="Ехать" />
-      <Button fx:id="buttonRemoveSnow" layoutX="75.0" layoutY="225.0" maxWidth="90.0" mnemonicParsing="false" prefWidth="90.0" text="Убирать снег" />
-      <TextArea fx:id="textEvents" layoutX="15.0" layoutY="15.0" prefHeight="200.0" prefWidth="300.0" />
-      <Label layoutX="330.0" layoutY="15.0" text="Состояние машины:" />
-      <Label layoutX="330.0" layoutY="35.0" text="Двигатель:" />
-      <Label fx:id="labelEngineGo" layoutX="360.0" layoutY="55.0" text="Не заведен" />
-      <Label layoutX="360.0" layoutY="95.0" text="Колесо 1:" />
-      <Label layoutX="330.0" layoutY="75.0" text="Двигатель:" />
-      <Label layoutX="360.0" layoutY="115.0" text="Колесо 1:" />
-      <Label layoutX="360.0" layoutY="135.0" text="Колесо 1:" />
-      <Label layoutX="360.0" layoutY="155.0" text="Колесо 1:" />
-      <Label layoutX="330.0" layoutY="191.0" text="Топлива в баке:" />
-      <Label fx:id="labelWheel1Speen" layoutX="425.0" layoutY="95.0" text="Не крутится" />
-      <Label fx:id="labelWheel2Speen" layoutX="425.0" layoutY="115.0" text="Не крутится" />
-      <Label fx:id="labelWheel3Speen" layoutX="425.0" layoutY="135.0" text="Не крутится" />
-      <Label fx:id="labelWheel4Speen" layoutX="425.0" layoutY="155.0" text="Не крутится" />
-      <Button fx:id="buttonAddFuel" layoutX="180.0" layoutY="225.0" maxWidth="85.0" mnemonicParsing="false" prefWidth="85.0" text="Заправиться" />
-      <Button fx:id="buttonPumpUp" layoutX="280.0" layoutY="225.0" maxWidth="115.0" mnemonicParsing="false" prefWidth="115.0" text="Накачать колеса" />
-      <Label fx:id="labelWheel1Inflated" layoutX="525.0" layoutY="95.0" text="Надуто" />
-      <Label fx:id="labelWheel2Inflated" layoutX="525.0" layoutY="115.0" text="Надуто" />
-      <Label fx:id="labelWheel3Inflated" layoutX="525.0" layoutY="135.0" text="Надуто" />
-      <Label fx:id="labelWheel4Inflated" layoutX="525.0" layoutY="155.0" text="Надуто" />
-      <Label fx:id="labelFuelInTank" alignment="CENTER_RIGHT" layoutX="425.0" layoutY="191.0" prefHeight="18.0" prefWidth="120.0" text="0" />
-      <Label layoutX="550.0" layoutY="192.0" text="(ml)" />
-      <Button layoutX="410.0" layoutY="225.0" mnemonicParsing="false" onAction="#ClearWindow" text="Очистить экран" />
+      <Button fx:id="buttonDrive" layoutX="15.0" layoutY="225.0" maxWidth="60.0" mnemonicParsing="false" prefWidth="60.0" text="Ехать" />
+      <Button fx:id="buttonRemoveSnow" layoutX="85.0" layoutY="225.0" maxWidth="110.0" mnemonicParsing="false" prefWidth="110.0" text="Убирать снег" />
+      <TextArea fx:id="textEvents" layoutX="15.0" layoutY="15.0" prefHeight="200.0" prefWidth="350.0" />
+      <Label layoutX="380.0" layoutY="15.0" text="Состояние машины:" />
+      <Label layoutX="380.0" layoutY="35.0" text="Двигатель:" />
+      <Label fx:id="labelEngineGo" layoutX="410.0" layoutY="55.0" text="Не заведен" />
+      <Label layoutX="410.0" layoutY="95.0" text="Колесо 1:" />
+      <Label layoutX="380.0" layoutY="75.0" text="Двигатель:" />
+      <Label layoutX="410.0" layoutY="115.0" text="Колесо 1:" />
+      <Label layoutX="410.0" layoutY="135.0" text="Колесо 1:" />
+      <Label layoutX="410.0" layoutY="155.0" text="Колесо 1:" />
+      <Label layoutX="380.0" layoutY="191.0" text="Топлива в баке:" />
+      <Label fx:id="labelWheel1Speen" layoutX="475.0" layoutY="95.0" text="Не крутится" />
+      <Label fx:id="labelWheel2Speen" layoutX="475.0" layoutY="115.0" text="Не крутится" />
+      <Label fx:id="labelWheel3Speen" layoutX="475.0" layoutY="135.0" text="Не крутится" />
+      <Label fx:id="labelWheel4Speen" layoutX="475.0" layoutY="155.0" text="Не крутится" />
+      <Button fx:id="buttonAddFuel" layoutX="205.0" layoutY="225.0" maxWidth="85.0" mnemonicParsing="false" prefWidth="85.0" text="Заправиться" />
+      <Button fx:id="buttonPumpUp" layoutX="300.0" layoutY="225.0" maxWidth="115.0" mnemonicParsing="false" prefWidth="115.0" text="Накачать колеса" />
+      <Label fx:id="labelWheel1Inflated" layoutX="575.0" layoutY="95.0" text="Надуто" />
+      <Label fx:id="labelWheel2Inflated" layoutX="575.0" layoutY="115.0" text="Надуто" />
+      <Label fx:id="labelWheel3Inflated" layoutX="575.0" layoutY="135.0" text="Надуто" />
+      <Label fx:id="labelWheel4Inflated" layoutX="575.0" layoutY="155.0" text="Надуто" />
+      <Label fx:id="labelFuelInTank" alignment="CENTER_RIGHT" layoutX="475.0" layoutY="191.0" prefHeight="18.0" prefWidth="120.0" text="0" />
+      <Label layoutX="600.0" layoutY="192.0" text="(ml)" />
+      <Button layoutX="425.0" layoutY="225.0" mnemonicParsing="false" onAction="#ClearWindow" text="Очистить экран" />
    </children>
 </AnchorPane>
